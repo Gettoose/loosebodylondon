@@ -1,0 +1,74 @@
+/* ================ Header ================ */
+
+header {
+	z-index: 200;
+	position: fixed;
+	width: 100%;
+	text-align: right;
+}
+
+.menu-btn {
+	margin-top: 1rem;
+	margin-right: 2rem;
+	margin-left: auto;
+	width: 3rem;
+	height: 3rem;
+	background-size: contain;
+	background-image: url(../assets/Menu_icon_open.png);
+	filter: drop-shadow(var(--shadow));
+}
+
+body.show-menu .menu-btn {
+	background-image: url(../assets/Menu_icon_close.png);
+}
+
+.menu {
+	text-align: right;
+	margin-right: 3rem;
+	font-weight: bold;
+	font-size: 1.2rem;
+	text-shadow: var(--shadow);
+}
+
+@media screen and (min-width: 768px) {
+	.menu {
+		font-size: 2rem;
+	}
+}
+
+body:not(.show-menu) .menu {
+	pointer-events: none;
+}
+
+.menu ul {
+	list-style: none;
+}
+
+.menu li {
+	margin-top: 0.5rem;
+	transform: translateX(10rem);
+	opacity: 0;
+	transition: transform 250ms ease-out, opacity 250ms ease-out;
+	transition-delay: calc(var(--index) * 50ms);
+}
+
+body.show-menu .menu li {
+	transform: translateX(0);
+	opacity: 1;
+}
+
+.overlay {
+	z-index: 100;
+	position: absolute;
+	left: 0;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	background-color: rgba(0, 0, 0, 0.6);
+	transition: opacity 250ms ease-out;
+}
+
+body:not(.show-menu) .overlay {
+	opacity: 0;
+	pointer-events: none;
+}
