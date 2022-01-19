@@ -1,6 +1,15 @@
 .home-page {
 	color: white;
 	text-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
+
+	background-image: url(../assets/Image_index_crop_k.jpg);
+	background-size: cover;
+	background-position: 28% 56%;
+	background-repeat: no-repeat;
+}
+
+.home-page header {
+	background-color: transparent;
 }
 
 .home-page .hero {
@@ -31,11 +40,13 @@
 	border-right: 0.1rem solid rgba(255, 255, 255, 0.5);
 	transform-origin: 50% 50%;
 	transform: rotate(17deg) scale(1.8) translate(0.2rem, 12%);
+	z-index: -1;
 }
 
 .home-page .hero .title .title__right {
 	font-style: italic;
 	transform: translateY(40%);
+	z-index: -1;
 }
 
 .home-page .hero .subtitle {
@@ -84,4 +95,8 @@
 	.home-page .hero .title {
 		font-size: 6rem;
 	}
+}
+
+.home-page footer {
+	color: white;
 }
