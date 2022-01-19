@@ -2,9 +2,9 @@ const Header = document.querySelector("header");
 const Paper = document.querySelector(".paper");
 
 const updatePaper = () => {
-	Paper.style.marginTop = Header.offsetHeight + "px";
+	Paper.style.marginTop = Header.offsetHeight + 6 + "px";
 };
 
-document.addEventListener("scroll", updatePaper);
+document.addEventListener("resize", updatePaper);
 
-updateMain();
+updatePaper();
