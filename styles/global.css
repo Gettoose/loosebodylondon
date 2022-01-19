@@ -3,6 +3,7 @@
 :root {
 	--shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
 	--color-text: #2f4f4f;
+	--color-paper: white;
 }
 
 /* ================ Reset browser defaults ================ */
@@ -34,20 +35,16 @@ body {
 	font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
 	font-size: 16px;
 	color: var(--color-text);
-	text-shadow: 0 1px 0 rgba(255, 255, 255, 0.2);
-
-	background-image: url(../assets/Image_index_crop_k.jpg);
-	background-size: cover;
-	background-position: 28% 56%;
-	background-repeat: no-repeat;
+	background: var(--color-paper);
 }
-
+body.show-menu {
+	overflow: hidden;
+}
 @media screen and (min-width: 768px) {
 	body {
 		font-size: 17px;
 	}
 }
-
 @media screen and (min-width: 1024px) {
 	body {
 		font-size: 18px;
@@ -71,7 +68,6 @@ footer {
 	margin: 1rem;
 	text-align: center;
 	font-size: 0.8rem;
-	color: white;
 }
 
 p {
@@ -98,6 +94,9 @@ a {
 
 .space-top {
 	padding-top: 1rem;
+}
+.space-top-3 {
+	padding-top: 3rem;
 }
 
 /* ================ Components ================ */
@@ -146,33 +145,27 @@ a {
 /* paper */
 
 .paper {
-	--color-paper: rgba(255, 255, 255, 0.8);
-	background: var(--color-paper);
-	box-shadow: 0 0 0.5rem 0.5rem var(--color-paper);
-
-	margin: 6rem 1rem 1rem;
 	padding: 1rem;
+	padding-top: 0;
 }
-
 @media screen and (min-width: 400px) {
 	.paper {
-		margin: 6rem 2rem 2rem;
 		padding: 2rem;
+		padding-top: 0;
 	}
 }
-
 @media screen and (min-width: 768px) {
 	.paper {
-		margin: 8rem 4rem 3rem;
 		padding: 3rem;
+		padding-top: 0;
 	}
 }
-
 @media screen and (min-width: 1024px) {
 	.paper {
-		margin: 10rem auto 4rem;
+		margin: 0 auto;
 		max-width: 900px;
 		padding: 4rem;
+		padding-top: 0;
 	}
 }
 

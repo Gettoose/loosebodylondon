@@ -1,11 +1,36 @@
 /* ================ Header ================ */
 
 header {
-	z-index: 200;
+	z-index: 100;
 	position: fixed;
+	top: 0;
 	width: 100%;
 	text-align: right;
+	background: var(--color-paper);
+	min-height: 6rem;
 }
+
+header .heading {
+	padding-top: 4rem;
+	margin: 2rem 0;
+}
+
+/* overlay */
+
+.overlay {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100vw;
+	height: 300vw;
+	background: rgba(0, 0, 0, 0);
+}
+body.show-menu .overlay {
+	background: rgba(0, 0, 0, 0.8);
+	pointer-events: none;
+}
+
+/* menu-btn */
 
 .menu-btn {
 	margin-top: 1rem;
@@ -16,26 +41,29 @@ header {
 	background-size: contain;
 	background-image: url(../assets/Menu_icon_open.png);
 	filter: drop-shadow(var(--shadow));
+	pointer-events: all !important;
 }
-
 body.show-menu .menu-btn {
 	background-image: url(../assets/Menu_icon_close.png);
 }
 
+/* menu */
+
 .menu {
+	position: absolute;
+	top: 6rem;
+	right: 3rem;
 	text-align: right;
-	margin-right: 3rem;
 	font-weight: bold;
 	font-size: 1.2rem;
 	text-shadow: var(--shadow);
+	pointer-events: all !important;
 }
-
 @media screen and (min-width: 768px) {
 	.menu {
 		font-size: 2rem;
 	}
 }
-
 body:not(.show-menu) .menu {
 	pointer-events: none;
 }
@@ -44,7 +72,6 @@ body:not(.show-menu) .menu {
 	list-style: none;
 	font-size: 2rem;
 }
-
 .menu li {
 	margin-top: 1rem;
 	opacity: 0;
@@ -52,24 +79,7 @@ body:not(.show-menu) .menu {
 	/* transition: transform 250ms ease-out, opacity 250ms ease-out;
 	transition-delay: calc(var(--index) * 50ms); */
 }
-
 body.show-menu .menu li {
 	opacity: 1;
 	/* transform: translateX(0); */
-}
-
-.overlay {
-	z-index: 100;
-	position: absolute;
-	left: 0;
-	top: 0;
-	right: 0;
-	bottom: 0;
-	background-color: rgba(0, 0, 0, 0.6);
-	transition: opacity 250ms ease-out;
-}
-
-body:not(.show-menu) .overlay {
-	opacity: 0;
-	pointer-events: none;
 }
