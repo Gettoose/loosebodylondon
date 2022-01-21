@@ -118,7 +118,7 @@ a {
 .address-link {
 	color: var(--color-text);
 	display: block;
-	text-decoration: underline;
+	text-decoration: none;
 }
 .address-link:not(:first-child) {
 	margin-top: 1rem;
