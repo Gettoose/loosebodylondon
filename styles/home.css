@@ -39,7 +39,7 @@
 .home-page .hero .title .title__right {
 	font-style: italic;
 	transform: translateY(40%);
-	z-index: -1;
+	z-index: -3;
 }
 
 .home-page .hero .subtitle {
