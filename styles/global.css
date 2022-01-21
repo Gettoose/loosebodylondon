@@ -82,7 +82,8 @@ button {
 }
 
 a {
-	color: #ffffff;
+	/* color: #ffffff; */
+	color: #2f4f4f;
 	text-decoration: none;
 }
 
