@@ -34,11 +34,11 @@ body:not(.show-menu) .overlay {
 /* menu-btn */
 
 .menu-btn {
-	margin-top: 1rem;
-	margin-right: 2rem;
+	margin-top: 1.5rem;
+	margin-right: 3rem;
 	margin-left: auto;
-	width: 2rem;
-	height: 2rem;
+	width: 2.4rem;
+	height: 2.4rem;
 	background-size: contain;
 	background-image: url(../assets/Menu_icon_open.png);
 	filter: drop-shadow(var(--shadow));
