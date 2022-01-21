@@ -32,7 +32,7 @@
 /* TODO change font */
 .home-page .hero .title .title__left {
 	font-weight: black;
-	font-style: italic;
+	font-style: regular;
 	text-transform: uppercase;
 }
 
