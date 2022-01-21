@@ -132,7 +132,7 @@ a {
 
 @media screen and (min-width: 620px) {
 	.list-full-width {
-		column-count: 2;
+		column-count: 1;
 	}
 }
 
