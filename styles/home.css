@@ -36,11 +36,11 @@
 	text-transform: uppercase;
 }
 
-.home-page .hero .title .title__separator {
+/*.home-page .hero .title .title__separator {
 	border-right: 0.1rem solid rgba(255, 255, 255, 0.5);
 	transform-origin: 50% 50%;
 	transform: rotate(17deg) scale(1.8) translate(0.2rem, 12%);
-	z-index: -1;
+	z-index: -1;*/
 }
 
 .home-page .hero .title .title__right {
