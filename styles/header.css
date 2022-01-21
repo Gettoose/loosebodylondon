@@ -23,7 +23,8 @@ header .heading {
 	top: 0;
 	width: 100vw;
 	height: 300vw;
-	background: rgba(0, 0, 0, 0.8);
+	/* background: rgba(0, 0, 0, 0.8); */
+	background: rgba(47, 79, 79, 0.72);
 }
 body:not(.show-menu) .overlay {
 	background: rgba(0, 0, 0, 0);
