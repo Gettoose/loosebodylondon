@@ -1,6 +1,6 @@
 .home-page {
 	color: white;
-	text-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
+	*text-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);*
 
 	background-image: url(../assets/Image_index_crop_k.jpg);
 	background-size: cover;
