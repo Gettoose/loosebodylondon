@@ -24,7 +24,7 @@ header .heading {
 	width: 100vw;
 	height: 300vw;
 	/* background: rgba(0, 0, 0, 0.8); */
-	background: rgba(47, 79, 79, 0.89);
+	background: rgba(47, 79, 79, 0.90);
 }
 body:not(.show-menu) .overlay {
 	background: rgba(0, 0, 0, 0);
@@ -37,8 +37,8 @@ body:not(.show-menu) .overlay {
 	margin-top: 1rem;
 	margin-right: 2rem;
 	margin-left: auto;
-	width: 3rem;
-	height: 3rem;
+	width: 2rem;
+	height: 2rem;
 	background-size: contain;
 	background-image: url(../assets/Menu_icon_open.png);
 	filter: drop-shadow(var(--shadow));
@@ -56,7 +56,7 @@ body.show-menu .menu-btn {
 	right: 3rem;
 	text-align: right;
 	font-weight: bold;
-	font-size: 1.2rem;
+	font-size: 0.8rem;
 	text-shadow: var(--shadow);
 	pointer-events: all !important;
 }
