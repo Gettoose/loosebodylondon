@@ -47,6 +47,20 @@ body:not(.show-menu) .overlay {
 body.show-menu .menu-btn1 {
 	background-image: url(../assets/Menu_icon_close.png);
 }
+.menu-btn2 {
+	margin-top: 1.5rem;
+	margin-right: 3rem;
+	margin-left: auto;
+	width: 2.4rem;
+	height: 2.4rem;
+	background-size: contain;
+	background-image: url(../assets/Menu_icon_open_gr.png);
+	filter: drop-shadow(var(--shadow));
+	pointer-events: all !important;
+}
+body.show-menu .menu-btn2 {
+	background-image: url(../assets/Menu_icon_close_gr.png);
+}
 
 /* menu */
 
