@@ -41,7 +41,7 @@ body:not(.show-menu) .overlay {
 	height: 2.4rem;
 	background-size: contain;
 	background-image: url(../assets/Menu_icon_open.png);
-	filter: drop-shadow(var(--shadow));
+	/*filter: drop-shadow(var(--shadow));*/
 	pointer-events: all !important;
 }
 body.show-menu .menu-btn1 {
@@ -55,7 +55,7 @@ body.show-menu .menu-btn1 {
 	height: 2.4rem;
 	background-size: contain;
 	background-image: url(../assets/Menu_icon_open_gr.png);
-	filter: drop-shadow(var(--shadow));
+	/*filter: drop-shadow(var(--shadow));*/
 	pointer-events: all !important;
 }
 body.show-menu .menu-btn2 {
@@ -70,13 +70,13 @@ body.show-menu .menu-btn2 {
 	right: 3rem;
 	text-align: right;
 	font-weight: bold;
-	font-size: 0.8rem;
+	font-size: 0.6rem;
 	text-shadow: var(--shadow);
 	pointer-events: all !important;
 }
 @media screen and (min-width: 768px) {
 	.menu {
-		font-size: 2rem;
+		font-size: 1.4rem;
 	}
 }
 body:not(.show-menu) .menu {
@@ -85,7 +85,7 @@ body:not(.show-menu) .menu {
 
 .menu ul {
 	list-style: none;
-	font-size: 2rem;
+	font-size: 1.4rem;
 }
 .menu li {
 	margin-top: 1rem;
