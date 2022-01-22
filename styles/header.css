@@ -33,7 +33,7 @@ body:not(.show-menu) .overlay {
 
 /* menu-btn */
 
-.menu-btn index {
+.menu-btn {
 	margin-top: 1.5rem;
 	margin-right: 3rem;
 	margin-left: auto;
@@ -44,7 +44,7 @@ body:not(.show-menu) .overlay {
 	filter: drop-shadow(var(--shadow));
 	pointer-events: all !important;
 }
-body.show-menu .menu-btn index {
+body.show-menu .menu-btn {
 	background-image: url(../assets/Menu_icon_close.png);
 }
 
