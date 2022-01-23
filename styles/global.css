@@ -110,7 +110,7 @@ a {
 	text-align: center;
 }
 .price-list li:not(:first-child) {
-	margin-top: 1rem;
+	margin-top: 3rem;
 }
 
 /* address-link */
