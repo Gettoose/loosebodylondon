@@ -31,7 +31,7 @@
 
 /* TODO change font */
 .home-page .hero .title .title__left {
-	font-weight: ;
+	font-weight: normal;
 	font-style: ;
 	text-transform: uppercase;
 }
@@ -77,7 +77,7 @@
 
 @media screen and (min-width: 768px) {
 	.home-page .hero .title {
-		font-size: 6rem;
+		font-size: 8rem;
 	}
 	.home-page .hero .subtitle {
 		font-size: 2rem;
