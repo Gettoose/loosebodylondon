@@ -69,7 +69,7 @@
 	}
 	.home-page .hero .title .title__right {
 		transform: none;
-		font-weight: 700;
+		font-weight: 900;
 	}
 	.home-page .hero .title {
 		margin-bottom: 10vh;
@@ -82,7 +82,7 @@
 		font-size: 8rem;
 		
 	.home-page .hero .title .title__right {
-		font-weight: 700;
+		font-weight: 900;
 	}
 	.home-page .hero .subtitle {
 		font-size: 2rem;
