@@ -69,6 +69,7 @@
 	}
 	.home-page .hero .title .title__right {
 		transform: none;
+		font-weight: bold;
 	}
 	.home-page .hero .title {
 		margin-bottom: 10vh;
