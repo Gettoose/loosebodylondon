@@ -93,7 +93,7 @@ a {
 }
 
 .space-top {
-	padding-top: 3rem;
+	padding-top: 1rem;
 }
 .space-top-3 {
 	padding-top: 1rem;
@@ -110,7 +110,7 @@ a {
 	text-align: center;
 }
 .price-list li:not(:first-child) {
-	margin-top: 3rem;
+	margin-top: 1rem;
 }
 
 /* address-link */
