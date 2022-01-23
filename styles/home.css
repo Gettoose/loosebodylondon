@@ -80,6 +80,9 @@
 @media screen and (min-width: 768px) {
 	.home-page .hero .title {
 		font-size: 8rem;
+		
+	.home-page .hero .title .title__right {
+		font-weight: bold;
 	}
 	.home-page .hero .subtitle {
 		font-size: 2rem;
