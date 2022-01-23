@@ -93,7 +93,7 @@ a {
 }
 
 .space-top {
-	padding-top: 1rem;
+	padding-top: 3rem;
 }
 .space-top-3 {
 	padding-top: 1rem;
@@ -121,7 +121,7 @@ a {
 	text-decoration: none;
 }
 .address-link:not(:first-child) {
-	margin-top: 1rem;
+	margin-top: 3rem;
 }
 
 /* list-full-width */
