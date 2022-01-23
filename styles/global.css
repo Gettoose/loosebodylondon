@@ -104,9 +104,10 @@ a {
 /* price-list */
 
 .price-list {
-	padding-top: 3rem;
+	padding: 0;
 	list-style: none;
-	margin: auto;
+	/* margin: auto; */
+	margin-top: 3rem;
 	text-align: center;
 }
 .price-list li:not(:first-child) {
