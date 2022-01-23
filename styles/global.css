@@ -120,7 +120,7 @@ a {
 	color: var(--color-text);
 	display: block;
 	text-decoration: none;
-	margin-top: 3rem;
+	margin-top: 4rem;
 }
 .address-link:not(:first-child) {
 	margin-top: 1rem;
