@@ -66,7 +66,7 @@ body.show-menu .menu-btn2 {
 /* menu */
 
 .menu {
-	/* position: absolute; */
+	position: absolute;
 	top: 6rem;
 	right: 3rem;
 	text-align: right;
