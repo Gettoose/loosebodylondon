@@ -11,7 +11,6 @@
 
 .home-page header {
 	background-color: transparent;
-	scrollbar-width: none;
 }
 
 .home-page .hero {
@@ -20,6 +19,7 @@
 	flex-direction: column;
 	justify-content: flex-end;
 	align-items: center;
+	scrollbar-width: none;
 
 }
 
