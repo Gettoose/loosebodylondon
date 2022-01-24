@@ -34,13 +34,12 @@
 	font-weight: normal;
 	font-style: ;
 	/*text-transform: uppercase;*/
-	text-transform: ;
 }
 
 .home-page .hero .title .title__right {
 	font-style: italic;
 	transform: translateY(80%);
-	z-index: -1;
+	z-index: -2;
 }
 
 .home-page .hero .subtitle {
@@ -70,7 +69,7 @@
 	}
 	.home-page .hero .title .title__right {
 		transform: none;
-		font-weight: bolder;
+		font-weight: bold;
 	}
 	.home-page .hero .title {
 		margin-bottom: 10vh;
@@ -83,10 +82,10 @@
 		font-size: 8rem;
 		
 	.home-page .hero .title .title__right {
-		font-weight: bolder;
+		font-weight: bold;
 	}
 	.home-page .hero .subtitle {
-		font-size: 2rem;
+		font-size: 2.4rem;
 	}
 }
 
