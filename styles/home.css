@@ -7,6 +7,7 @@
 	background-position: 34% 30%;
 	background-repeat: no-repeat;
 	min-height: 100%;
+	scrollbar-width: none;
 }
 
 .home-page header {
@@ -19,7 +20,7 @@
 	flex-direction: column;
 	justify-content: flex-end;
 	align-items: center;
-	scrollbar-width: none;
+
 }
 
 .home-page .hero .title {
