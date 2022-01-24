@@ -22,7 +22,7 @@
 }
 
 .home-page .hero .title {
-	margin-bottom: 25vh;
+	margin-bottom: 40vh;
 	/* font-size: 4rem; */
 	display: flex;
 	flex-wrap: wrap;
@@ -44,7 +44,7 @@
 }
 
 .home-page .hero .subtitle {
-	margin-bottom: 0.5vh;
+	margin-bottom: 2vh;
 	font-size: 1.4rem;
 	font-weight: normal;
 	/* position: relative;
