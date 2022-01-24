@@ -7,11 +7,11 @@
 	background-position: 34% 30%;
 	background-repeat: no-repeat;
 	min-height: 100%;
-	scrollbar-width: none;
 }
 
 .home-page header {
 	background-color: transparent;
+	scrollbar-width: none;
 }
 
 .home-page .hero {
