@@ -19,6 +19,7 @@
 	flex-direction: column;
 	justify-content: flex-end;
 	align-items: center;
+	scrollbar-width: none;
 }
 
 .home-page .hero .title {
