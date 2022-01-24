@@ -135,12 +135,14 @@ a {
 @media screen and (min-width: 620px) {
 	.list-full-width {
 		column-count: 1;
+		list-style: none;
 	}
 }
 
 @media screen and (min-width: 900px) {
 	.list-full-width {
 		column-count: 1;
+		list-style: none;
 	}
 }
 
