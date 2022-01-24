@@ -14,7 +14,7 @@
 }
 
 .home-page .hero {
-	flex: 2;
+	flex: 100vh;
 	display: flex;
 	flex-direction: column;
 	justify-content: flex-end;
