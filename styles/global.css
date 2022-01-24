@@ -130,7 +130,6 @@ a {
 
 .list-full-width {
 	column-gap: 2rem;
-	list-style: none;
 }
 
 @media screen and (min-width: 620px) {
@@ -142,6 +141,7 @@ a {
 @media screen and (min-width: 900px) {
 	.list-full-width {
 		column-count: 1;
+		list-style: none;
 	}
 }
 
