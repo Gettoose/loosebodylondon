@@ -66,9 +66,13 @@ main {
 }
 
 footer {
-	margin: 10rem;
+	margin-bottom: 10vh;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	/* margin: 10rem; 
 	text-align: center;
-	font-size: 0.8rem;
+	font-size: 0.8rem; */
 }
 
 p {
