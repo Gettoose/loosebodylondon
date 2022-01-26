@@ -60,13 +60,14 @@ main {
 }
 
 main {
+	position: relative;
 	display: flex;
 	flex-direction: column;
 	overflow-y: auto;
 }
 
 footer {
-	bottom: -10px;
+	bottom: -1rem;
 	padding-bottom: 2rem;
 	padding-top: 2rem;
 	display: flex;
