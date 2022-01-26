@@ -66,7 +66,8 @@ main {
 }
 
 footer {
-	top: 0;
+	bottom: 0;
+	padding-bottom: 2rem;
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
