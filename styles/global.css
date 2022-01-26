@@ -54,7 +54,6 @@ body.show-menu {
 
 body,
 main {
-	position: relative;
 	width: 100vw;
 	min-height: 100vh;
 	overflow-x: hidden;
@@ -70,7 +69,7 @@ footer {
 	bottom: -1rem;
 	padding-bottom: 2rem;
 	padding-top: 2rem;
-	display: flex;
+	/* display: flex; */
 	flex-wrap: wrap;
 	justify-content: center;
 	font-size: 0.8rem;
