@@ -67,7 +67,7 @@ main {
 
 footer {
 	/* bottom: 0; */
-	position: relative;
+	position: absolute;
 	padding-bottom: 2rem;
 	padding-top: 2rem;
 	display: flex;
