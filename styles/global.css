@@ -66,8 +66,7 @@ main {
 }
 
 footer {
-	/* bottom: 0; */
-	position: absolute;
+	bottom: -10px;
 	padding-bottom: 2rem;
 	padding-top: 2rem;
 	display: flex;
