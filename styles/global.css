@@ -115,8 +115,8 @@ a {
 .price-list {
 	padding: 0;
 	list-style: none;
-	margin: auto; 
-	/* margin-top: 3rem; */
+	/* margin: auto; */ 
+	margin-top: 2rem;
 	text-align: center;
 }
 .price-list li:not(:first-child) {
