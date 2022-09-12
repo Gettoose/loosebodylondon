@@ -94,6 +94,9 @@
 	.home-page .hero .title {
 		font-size: 8rem;
 	}
+	.home-page .hero .subtitle {
+		font-size: 3.0rem;
+	}
 }
 
 .home-page footer {
