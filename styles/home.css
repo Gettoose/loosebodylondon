@@ -92,6 +92,7 @@
 
 @media screen and (min-width: 1024px) {
 	.home-page .hero .title {
+		margin-bottom: 5vh;
 		font-size: 8rem;
 	}
 	.home-page .hero .subtitle {
