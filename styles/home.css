@@ -89,7 +89,7 @@
 		font-size: 2.4rem;
 	}
 	.home-page .hero .call {
-		font-size: 1.2rem;
+		font-size: 1.6rem;
 	}
 }
 
@@ -101,6 +101,10 @@
 	.home-page .hero .subtitle {
 		margin-bottom: 12vh;
 		font-size: 3rem;
+	}
+	.home-page .hero .call {
+		margin-bottom: 8vh;
+		font-size: 2.4rem;
 	}
 }
 
