@@ -51,6 +51,10 @@
 	padding: 1rem 2rem; */
 }
 
+.home-page .hero .call {
+	font-weight: normal;
+}
+
 /* .home-page .hero .subtitle::after {
 	content: "";
 	position: absolute;
