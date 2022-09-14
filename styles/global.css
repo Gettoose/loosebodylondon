@@ -139,7 +139,9 @@ a {
 /* list-full-width */
 
 .list-full-width {
+	list-style: none;
 	column-gap: 2rem;
+		
 }
 
 @media screen and (min-width: 620px) {
@@ -159,8 +161,8 @@ a {
 .paper {
 	padding: 1rem;
 	margin-top: 10rem; /* initial; gets set to header.height on load */
-	list-style:none;
 }
+
 @media screen and (min-width: 400px) {
 	.paper {
 		padding: 2rem;
@@ -179,6 +181,7 @@ a {
 		max-width: 900px;
 		padding: 4rem;
 		padding-top: 1rem;
+		list-style: none;
 	}
 }
 
