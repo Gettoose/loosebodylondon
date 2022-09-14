@@ -137,6 +137,8 @@ a {
 }
 
 /* list-full-width */
+/* to move list back to align left remove 'text-align:center'*/
+/* to change gaps between lines adjust 'first child margin-top'*/
 
 .list-full-width {
 	list-style: none;
