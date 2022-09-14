@@ -140,7 +140,7 @@ a {
 
 .list-full-width {
 	list-style: none;
-	align: center;
+	text-align: center;
 	column-gap: 2rem;	
 }
 .list-full-width li:not(:first-child) {
