@@ -15,6 +15,7 @@
 
 .home-page header .call {
 	font-weight: bold;
+	font-size: 1.8rem;
 	display: flex;
 	justify-content: right;
 	padding: 1rem 2.5rem;
