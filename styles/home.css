@@ -13,6 +13,10 @@
 	background-color: transparent;
 }
 
+.home-page header .call {
+	font-weight: bold;
+}
+
 .home-page .hero {
 	flex: 100vh;
 	display: flex;
