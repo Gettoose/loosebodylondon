@@ -97,11 +97,11 @@
 
 @media screen and (min-width: 1024px) {
 	.home-page .hero .title {
-		margin-bottom: 22vh;
+		margin-bottom: 24vh;
 		font-size: 8rem;
 	}
 	.home-page .hero .subtitle {
-		margin-bottom: 14vh;
+		margin-bottom: 12vh;
 		font-size: 3rem;
 	}
 	.home-page .hero .call {
