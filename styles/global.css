@@ -137,10 +137,11 @@ a {
 }
 
 /* list-full-width */
-/* to move list back to align left remove 'text-align:center'*/
+/* to move list elements back to align left remove 'text-align:center'*/
 /* to change gaps between lines adjust 'first child margin-top'*/
 
 .list-full-width {
+	padding: 0;
 	list-style: none;
 	text-align: center;
 	column-gap: 2rem;	
