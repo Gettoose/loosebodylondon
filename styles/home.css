@@ -97,7 +97,7 @@
 
 @media screen and (min-width: 1024px) {
 	.home-page .hero .title {
-		margin-bottom: 24vh;
+		margin-bottom: 20vh;
 		font-size: 8rem;
 	}
 	.home-page .hero .subtitle {
@@ -107,7 +107,7 @@
 	.home-page .hero .call {
 		margin-bottom: 6vh;
 		font-size: 2.2rem;
-		color-text: #2f4f4f;
+		color: #2f4f4f;
 	}
 }
 
