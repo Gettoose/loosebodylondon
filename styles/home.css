@@ -16,8 +16,9 @@
 .home-page header .call {
 	font-weight: bold;
 	font-size: 2rem;
-	padding: 8rem;
 	display: flex;
+	margin-top: 2rem;
+	margin-right: 8rem;
 }
 
 .home-page .hero {
