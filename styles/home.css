@@ -17,9 +17,8 @@
 	font-weight: bold;
 	font-size: 2rem;
 	display: flex;
-	margin-top: 0rem;
-	margin-right: 2.5rem;
-	margin-left: auto;
+	margin-top: 1rem;
+	padding: 8rem;
 }
 
 .home-page .hero {
