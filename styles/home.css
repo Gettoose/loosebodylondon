@@ -73,6 +73,9 @@
 } */
 
 @media screen and (max-width: 400px) {
+	.home-page header .call {
+		font-size: 0.8rem;
+	}		
 	.home-page .hero .title .title__separator {
 		display: none;
 	}
