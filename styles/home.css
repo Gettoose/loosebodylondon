@@ -17,7 +17,6 @@
 	font-weight: bold;
 	display: flex;
 	justify-content: right;
-	padding: 1.5rem 8rem;
 }
 
 .home-page .hero {
@@ -104,6 +103,7 @@
 @media screen and (min-width: 1024px) {
 	.home-page header .call {
 		font-size: 2rem;
+		padding: 1.5rem 8rem;
 	}
 	.home-page .hero .title {
 		margin-bottom: 22vh;
