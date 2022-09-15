@@ -17,7 +17,7 @@
 	font-weight: bold;
 	font-size: 2rem;
 	display: flex;
-	padding: 1rem 40rem;
+	padding: 1rem -8rem;
 }
 
 .home-page .hero {
