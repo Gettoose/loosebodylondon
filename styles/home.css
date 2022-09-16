@@ -15,7 +15,6 @@
 
 .home-page header .call {
 	font-weight: bold;
-	font-size: 1.2rem;
 	display: flex;
 	justify-content: right;
 }
@@ -73,7 +72,7 @@
 
 @media screen and (max-width: 400px) {
 	.home-page header .call {
-		font-size: 5vw;
+		font-size: 4.4vw;
 		justify-content: right;
 		padding-top: 1rem;
 		padding-right: 24vw;
