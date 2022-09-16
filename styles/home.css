@@ -73,7 +73,7 @@
 
 @media screen and (max-width: 400px) {
 	.home-page header .call {
-		font-size: 1vw;
+		font-size: 12vw;
 		justify-content: right;
 		padding-top: 1rem;
 		padding-right: 24vw;
