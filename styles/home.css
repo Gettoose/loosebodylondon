@@ -75,7 +75,7 @@
 	.home-page header .call {
 		font-size: 1.1rem;
 		justify-content: right;
-		padding-right: 2.6rem;
+		margin-right: 2.6rem;
 	}		
 	.home-page .hero .title .title__separator {
 		display: none;
