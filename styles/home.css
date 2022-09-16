@@ -75,7 +75,7 @@
 @media screen and (max-width: 400px) {
 	.home-page header .call {
 		font-size: 1.2rem;
-		justify-content: flex-end;
+		justify-content: center;
 	}		
 	.home-page .hero .title .title__separator {
 		display: none;
