@@ -75,7 +75,7 @@
 		font-size: 4.4vw;
 		justify-content: right;
 		padding-top: 1rem;
-		padding-right: 24vw;
+		padding: 3rem;
 	}		
 	.home-page .hero .title .title__separator {
 		display: none;
